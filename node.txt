@@ -1,0 +1,22 @@
+在文件夹(右键 git bush) : 输入 git init 出现.git
+
+添加仓库：
+git add 文件名 
+git commit -m"备注"
+
+仓库状态
+git status
+git diff
+
+历史记录
+git log
+git log --pretty=oneline
+git reflog 命令历史
+
+回退版本
+git reset --hard HEAD^
+git reset --hard HEAD^^
+git reset --hard HEAD~100
+
+显示文件内容
+cat 文件名
